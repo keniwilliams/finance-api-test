@@ -7,13 +7,16 @@
 - MySQL (local)
 - PHPUnit tests included
 
-## Key Work Completed
+## Key Work Done
 
-- Models, migrations and relations (Users, Accounts, Transactions)
-- Passport OAuth2 setup with personal access tokens
-- Authorization rules for account ownership
-- Validation rules for withdrawals / insufficient funds
-- Feature tests for auth, authorization, transactions
+Implemented models, migrations, and relationships for Users, Accounts, and Transactions
+
+- Integrated Laravel Passport 12 for API authentication
+- Added basic authorization checks to ensure users can only access their own accounts
+- Implemented transaction validation (including insufficient funds handling)
+- Updated controllers to pass all provided feature tests
+- Resolved multiple migration conflicts and versioning issues related to Passport
+- Ensured project builds cleanly and tests run successfully
 
 ## Issues Encountered
 
